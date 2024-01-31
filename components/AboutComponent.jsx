@@ -25,17 +25,17 @@ export default function AboutComponent() {
 
         <div className="items-center">
           <p className="px-12 pb-4 ">
-            Hi! I'm Bluma, founder of Hickory Lane Interiors. As your designer,
-            my passion lies in crafting inviting, warm spaces that resonate with
-            your unique taste and lifestyle. My approach centers around
-            understanding your vision and preferences intimately. From there, I
-            blend my design expertise with your desires, transforming each room
-            into a sanctuary of comfort and style. Whether it's the heartwarming
-            embrace of a living room, the lively charm of a kitchen, or the
-            tranquil retreat of a bedroom, my goal is to weave together colors,
-            textures, and furnishings that not only look stunning but feel right
-            for you. Let's collaborate to transform your house into a home – a
-            haven of warmth and joy, uniquely yours.
+            Hi! I&apos;m Bluma, founder of Hickory Lane Interiors. As your
+            designer, my passion lies in crafting inviting, warm spaces that
+            resonate with your unique taste and lifestyle. My approach centers
+            around understanding your vision and preferences intimately. From
+            there, I blend my design expertise with your desires, transforming
+            each room into a sanctuary of comfort and style. Whether it&apos;s
+            the heartwarming embrace of a living room, the lively charm of a
+            kitchen, or the tranquil retreat of a bedroom, my goal is to weave
+            together colors, textures, and furnishings that not only look
+            stunning but feel right for you. Let&apos;s collaborate to transform
+            your house into a home – a haven of warmth and joy, uniquely yours.
           </p>
           <div className="flex px-12 pt-4 gap-x-4 "></div>
         </div>
