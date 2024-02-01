@@ -1,6 +1,6 @@
 'use client'
 import { useParams } from 'next/navigation'
-import { projects } from '@/app/utils/project-data'
+import { projects } from '../../utils/project-data'
 import Image from 'next/image'
 
 const Project = () => {
