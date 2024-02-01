@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { TbArrowUpRight } from 'react-icons/tb'
 
 export default function HeroSection() {
@@ -16,9 +17,12 @@ export default function HeroSection() {
             aspirations into stunning realities. With a touch of creativity and
             expertise, we ensure every space tells your story beautifully.
           </p>
-          <button className="inline-flex items-center px-8 py-3 text-white rounded-full shadow-lg bg-gray-950 hover:bg-gray-800 hover:ring-2 hover:ring-gray-950 ring-offset-2 ">
+          <Link
+            href="/contact"
+            className="inline-flex items-center px-8 py-3 text-white rounded-full shadow-lg bg-gray-950 hover:bg-gray-800 hover:ring-2 hover:ring-gray-950 ring-offset-2 "
+          >
             Contact us now <TbArrowUpRight className="w-5 h-5 ml-2" />
-          </button>
+          </Link>
         </div>
 
         <div className="w-1/2">
