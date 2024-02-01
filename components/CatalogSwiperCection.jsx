@@ -1,5 +1,6 @@
 'use client'
 import Image from 'next/image'
+import Link from 'next/link'
 import { TbArrowUpRight } from 'react-icons/tb'
 import 'swiper/css'
 import { Autoplay } from 'swiper/modules'
@@ -11,32 +12,28 @@ export default function CatalogSwiperSection() {
       <div className="container grid pb-8 lg:grid-cols-2">
         <div className="text-left ">
           <h1 className="py-4 text-4xl font-medium lg:text-6xl lg:py-0">
-            Modern Classic
+            YOUR VISION, OUR EXPERTISE
           </h1>
         </div>
         <div>
           <h2 className="pb-6 text-xl font-bold tracking-wider">
-            LUXURY DECOR TO CREATE COMFORT IN OUR HOME
+            MODERN TO RUSTIC, CHIC TO ANTIQUE - YOUR VISION CAN BECOME REALITY
           </h2>
-          <div className="grid grid-cols-2 text-gray-500 gap-x-8">
+          <div className="grid  text-gray-500 gap-x-8">
             <div>
               <p>
-                With our passion for design and decor, we have created a
-                collection of furniture and accessories that will help you
-                create a comfortable and stylish home.
+                With Hickory Lane Interiors, your vision can become reality, no
+                matter the budget range. Whatever your style, Hickory Lane
+                Interiors will make sure the project remains distinctly aligned
+                with your vision while expertly guided to its maximum potential.
+                Schedule a call with us today to get started!
               </p>
-            </div>
-            <div>
-              <p>
-                We create distinctive and unique designs that are inspired by
-                the latest trends in interior design and fashion.
-              </p>
-              <a
-                href="#"
+              <Link
+                href="/gallery"
                 className="inline-flex items-center pt-4 text-lg font-bold text-black underline"
               >
                 View Gallery <TbArrowUpRight />{' '}
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -10,7 +10,7 @@ export default function AboutComponent() {
         >
           About the founder
         </a>
-        <p className="tracking-wider text-gray-400">WORLD AWARD</p>
+        <p className="tracking-wider text-gray-400">LET&apos;S WORK TOGETHER</p>
       </div>
       <div className="grid lg:grid-cols-2 place-items-start place-content-center">
         <div>
