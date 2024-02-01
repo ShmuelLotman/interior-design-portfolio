@@ -13,53 +13,93 @@ import Gallery3 from '@/public/image/gallery3.jpg'
 
 export default function Gallery() {
   return (
-    <div class="container py-10 grid grid-cols-2 md:grid-cols-4 gap-4">
-      <div class="flex flex-col gap-4">
+    <div className="container py-10 grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="flex flex-col gap-4">
         <div>
-          <Image class="h-auto max-w-full rounded-lg" src={Bedroom} alt="" />
-        </div>
-        <div>
-          <Image class="h-auto max-w-full rounded-lg" src={GalleryImg} alt="" />
+          <Image
+            className="h-auto max-w-full rounded-lg"
+            src={Bedroom}
+            alt=""
+          />
         </div>
         <div>
           <Image
-            class="h-auto max-w-full rounded-lg"
+            className="h-auto max-w-full rounded-lg"
+            src={GalleryImg}
+            alt=""
+          />
+        </div>
+        <div>
+          <Image
+            className="h-auto max-w-full rounded-lg"
             src={GalleryImg2}
             alt=""
           />
         </div>
       </div>
-      <div class="flex flex-col gap-4">
+      <div className="flex flex-col gap-4">
         <div>
-          <Image class="h-auto max-w-full rounded-lg" src={Swiper1} alt="" />
+          <Image
+            className="h-auto max-w-full rounded-lg"
+            src={Swiper1}
+            alt=""
+          />
         </div>
         <div>
-          <Image class="h-auto max-w-full rounded-lg" src={Gallery11} alt="" />
+          <Image
+            className="h-auto max-w-full rounded-lg"
+            src={Gallery11}
+            alt=""
+          />
         </div>
         <div>
-          <Image class="h-auto max-w-full rounded-lg" src={Living} alt="" />
-        </div>
-      </div>
-      <div class="flex flex-col gap-4">
-        <div>
-          <Image class="h-auto max-w-full rounded-lg" src={Gallery14} alt="" />
-        </div>
-        <div>
-          <Image class="h-auto max-w-full rounded-lg" src={Gallery15} alt="" />
-        </div>
-        <div>
-          <Image class="h-auto max-w-full rounded-lg" src={Gallery12} alt="" />
+          <Image className="h-auto max-w-full rounded-lg" src={Living} alt="" />
         </div>
       </div>
-      <div class="flex flex-col gap-4">
+      <div className="flex flex-col gap-4">
         <div>
-          <Image class="h-auto max-w-full rounded-lg" src={Gallery7} alt="" />
+          <Image
+            className="h-auto max-w-full rounded-lg"
+            src={Gallery14}
+            alt=""
+          />
         </div>
         <div>
-          <Image class="h-auto max-w-full rounded-lg" src={Gallery11} alt="" />
+          <Image
+            className="h-auto max-w-full rounded-lg"
+            src={Gallery15}
+            alt=""
+          />
         </div>
         <div>
-          <Image class="h-auto max-w-full rounded-lg" src={Gallery3} alt="" />
+          <Image
+            className="h-auto max-w-full rounded-lg"
+            src={Gallery12}
+            alt=""
+          />
+        </div>
+      </div>
+      <div className="flex flex-col gap-4">
+        <div>
+          <Image
+            className="h-auto max-w-full rounded-lg"
+            src={Gallery7}
+            alt=""
+          />
+        </div>
+        <div>
+          <Image
+            className="h-auto max-w-full rounded-lg"
+            src={Gallery11}
+            alt=""
+          />
+        </div>
+        <div>
+          <Image
+            className="h-auto max-w-full rounded-lg"
+            src={Gallery3}
+            alt=""
+          />
         </div>
       </div>
     </div>
