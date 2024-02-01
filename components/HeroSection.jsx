@@ -9,8 +9,7 @@ export default function HeroSection() {
         <div className="lg:w-1/2">
           <p className="tracking-widest">FROM HOUSE TO HOME, BY DESIGN</p>
           <h1 className="py-4 text-3xl font-extrabold leading-tight text-gray-800 xl:text-6xl lg:text-4xl">
-            Design the home <br />
-            you&apos;ve always dreamt of.
+            Find your comfort zone.
           </h1>
           <p className="pb-6 text-gray-500 xl:pb-10">
             Hickory Lane Interiors specializes in turning your design
