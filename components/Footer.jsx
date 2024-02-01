@@ -54,15 +54,15 @@ export default function Footer() {
       <div className="py-10 bg-zinc-200">
         <div className="container text-center text-gray-500 lg:justify-between lg:flex">
           <div className="pb-4 lg:pb-0">
-            <p>&copy;2024 Hickory Lane Interiors.All rights reserved </p>
+            <p>&copy;2024 Hickory Lane Interiors. All rights reserved </p>
           </div>
           <div className="">
-            <Link className="p-4 hover:underline" href="/privacy">
+            {/* <Link className="p-4 hover:underline" href="/privacy">
               Privacy
             </Link>
             <Link className="p-4 hover:underline" href="/terms">
               Terms
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
