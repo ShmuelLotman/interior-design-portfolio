@@ -1,15 +1,14 @@
 import Image from 'next/image'
-import Bedroom from '@/public/image/badroom.jpg'
-import GalleryImg from '@/public/image/gallery2.jpg'
-import GalleryImg2 from '@/public/image/gallery.jpg'
-import Swiper1 from '@/public/image/swiper1.jpg'
-import Gallery11 from '@/public/image/gallery11.jpg'
-import Gallery14 from '@/public/image/gallery14.jpg'
-import Living from '@/public/image/living.jpg'
-import Gallery15 from '@/public/image/gallery15.jpg'
-import Gallery12 from '@/public/image/gallery12.jpg'
-import Gallery7 from '@/public/image/gallery7.jpg'
-import Gallery3 from '@/public/image/gallery3.jpg'
+import PostMudroom1 from '@/public/image/post-mudroom-1.png'
+import PostMudroom2 from '@/public/image/post-mudroom-2.jpg'
+import StudioPost1 from '@/public/image/studio-post-1.jpg'
+import StudioPost2 from '@/public/image/studio-post-2.jpg'
+import StudioPost3 from '@/public/image/studio-post-3.jpg'
+import StudioPost4 from '@/public/image/studio-post-4.jpg'
+import StudioPost5 from '@/public/image/studio-post-5.jpg'
+import StudioPost6 from '@/public/image/studio-post-6.jpg'
+import ClosetPost1 from '@/public/image/closet-post-1.jpg'
+import ClosetPost2 from '@/public/image/closet-post-2.jpg'
 
 export default function Gallery() {
   return (
@@ -18,21 +17,14 @@ export default function Gallery() {
         <div>
           <Image
             className="h-auto max-w-full rounded-lg"
-            src={Bedroom}
+            src={PostMudroom1}
             alt=""
           />
         </div>
         <div>
           <Image
             className="h-auto max-w-full rounded-lg"
-            src={GalleryImg}
-            alt=""
-          />
-        </div>
-        <div>
-          <Image
-            className="h-auto max-w-full rounded-lg"
-            src={GalleryImg2}
+            src={PostMudroom2}
             alt=""
           />
         </div>
@@ -41,40 +33,21 @@ export default function Gallery() {
         <div>
           <Image
             className="h-auto max-w-full rounded-lg"
-            src={Swiper1}
+            src={StudioPost1}
             alt=""
           />
         </div>
         <div>
           <Image
             className="h-auto max-w-full rounded-lg"
-            src={Gallery11}
-            alt=""
-          />
-        </div>
-        <div>
-          <Image className="h-auto max-w-full rounded-lg" src={Living} alt="" />
-        </div>
-      </div>
-      <div className="flex flex-col gap-4">
-        <div>
-          <Image
-            className="h-auto max-w-full rounded-lg"
-            src={Gallery14}
+            src={StudioPost2}
             alt=""
           />
         </div>
         <div>
           <Image
             className="h-auto max-w-full rounded-lg"
-            src={Gallery15}
-            alt=""
-          />
-        </div>
-        <div>
-          <Image
-            className="h-auto max-w-full rounded-lg"
-            src={Gallery12}
+            src={StudioPost4}
             alt=""
           />
         </div>
@@ -83,21 +56,44 @@ export default function Gallery() {
         <div>
           <Image
             className="h-auto max-w-full rounded-lg"
-            src={Gallery7}
+            src={StudioPost3}
             alt=""
           />
         </div>
         <div>
           <Image
             className="h-auto max-w-full rounded-lg"
-            src={Gallery11}
+            src={StudioPost5}
             alt=""
           />
         </div>
         <div>
           <Image
             className="h-auto max-w-full rounded-lg"
-            src={Gallery3}
+            src={StudioPost6}
+            alt=""
+          />
+        </div>
+      </div>
+      <div className="flex flex-col gap-4">
+        <div>
+          <Image
+            className="h-auto max-w-full rounded-lg"
+            src={ClosetPost1}
+            alt=""
+          />
+        </div>
+        <div>
+          <Image
+            className="h-auto max-w-full rounded-lg"
+            src={StudioPost2}
+            alt=""
+          />
+        </div>
+        <div>
+          <Image
+            className="h-auto max-w-full rounded-lg"
+            src={ClosetPost2}
             alt=""
           />
         </div>
