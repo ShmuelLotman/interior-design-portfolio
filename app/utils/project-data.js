@@ -10,6 +10,10 @@ import StudioPostSix from '@/public/image/studio-post-6.jpg'
 import ClosetBefore from '@/public/image/closet-before.jpg'
 import ClosetPostOne from '@/public/image/closet-post-1.jpg'
 import ClosetPostTwo from '@/public/image/closet-post-2.jpg'
+import FoyerBefore from '@/public/image/foyer-before.jpg'
+import FoyerAfterOne from '@/public/image/foyer-after-1.jpg'
+import FoyerAfterTwo from '@/public/image/foyer-after-2.jpg'
+import FoyerAfterMain from '@/public/image/foyer-after-main.jpg'
 
 export const projects = [
   {
@@ -39,5 +43,11 @@ export const projects = [
     title: 'Childrens Closet Brought to Life',
     subtitle: 'More space, more light, more joy',
     imgLinks: [ClosetBefore, ClosetPostOne, ClosetPostTwo],
+  },
+  {
+    id: 4,
+    title: 'A Foyer Fit For A Queen (& King)',
+    subtitle: 'Making the most of small spaces & efficient budgets',
+    imgLinks: [FoyerBefore, FoyerAfterOne, FoyerAfterTwo, FoyerAfterMain],
   },
 ]

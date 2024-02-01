@@ -44,7 +44,7 @@ export default function CatalogueSection() {
     <div
       className={`grid gap-8 divide-gray-300 lg:divide-x lg:gap-0 lg:grid-cols-${
         projects.length > 4 ? 4 : projects.length
-      } md:grid-cols-2 align-center`}
+      } md:grid-cols-${projects.length > 4 ? 4 : projects.length} align-center`}
     >
       {projects.map((item) => (
         <div key={item.id} className="relative overflow-hidden group">
