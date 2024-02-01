@@ -5,7 +5,7 @@ import { TbArrowUpRight } from 'react-icons/tb'
 export default function HeroSection() {
   return (
     <div className="bg-zinc-50 h-screen flex items-center">
-      <div className="container py-8 text-center lg:py-0 lg:text-left lg:flex lg:justify-between xl:pb-16 lg:pb-8">
+      <div className="container py-8 text-center lg:py-0 lg:text-left lg:flex lg:justify-between xl:pb-16 lg:pb-8 gap-8">
         <div className="lg:w-1/2">
           <p className="tracking-widest">FROM HOUSE TO HOME, BY DESIGN</p>
           <h1 className="py-4 text-3xl font-extrabold leading-tight text-gray-800 xl:text-6xl lg:text-4xl">
