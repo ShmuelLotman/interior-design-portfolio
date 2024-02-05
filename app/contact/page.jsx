@@ -1,7 +1,8 @@
 'use client'
 
-import { useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { useFormState } from 'react-dom'
+import { toast } from 'react-hot-toast'
 import { contactUsAction } from '../actions/contact-us'
 import SubmitButton from '@/components/SubmitButton'
 
@@ -13,6 +14,22 @@ export default function Contact() {
   // @ts-ignore
   const formRef = useRef(null)
   const [state, formAction] = useFormState(contactUsAction, intiialState)
+
+  useEffect(() => {
+    if (state?.status === 'rate-limit-error') {
+      toast.error(state.message)
+    }
+
+    if (state?.status === 'success') {
+      toast.success(state.message)
+    }
+
+    if (state?.status === 'error') {
+      toast.error(
+        'We are really sorry, something went wrong. Please try again later!'
+      )
+    }
+  }, [state?.status, state?.message])
 
   return (
     <section className="bg-white dark:bg-gray-900">
@@ -79,7 +96,13 @@ export default function Contact() {
               placeholder="Leave a comment..."
             ></textarea>
           </div>
-          <SubmitButton />
+          {state.status === 'success' ? (
+            <h2 className="py-4 text-xl font-semibold ">
+              Thank you! We will be in touch soon!
+            </h2>
+          ) : (
+            <SubmitButton />
+          )}
         </form>
       </div>
     </section>

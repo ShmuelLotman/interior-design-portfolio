@@ -3,6 +3,7 @@ import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
+import { Toaster } from 'react-hot-toast'
 
 export const metadata = {
   title: 'An aesthetic room is given harmony',
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Header />
+        <Toaster position="top-center" />
         {children}
         <Footer />
       </body>
