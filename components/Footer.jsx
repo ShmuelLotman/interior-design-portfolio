@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <h2 className="pb-4 text-xl font-semibold">COMPANY</h2>
             <div className="flex flex-col ">
-              <Link className="py-1 hover:underline" href="/about">
+              <Link className="py-1 hover:underline" href="#about">
                 About Us
               </Link>
               <Link className="py-1 hover:underline" href="/contact">
