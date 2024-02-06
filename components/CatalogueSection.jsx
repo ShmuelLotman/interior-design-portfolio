@@ -60,7 +60,6 @@ export default function CatalogueSection() {
           <div className="absolute top-0 p-8 m-12 bg-white bg-opacity-60 backdrop-blur">
             <div className="flex justify-between pb-4 ">
               <p className="text-sm">{item.subtitle}</p>
-              <span className="text-sm ">{item.id}</span>
             </div>
             <Link
               className="block text-xl font-semibold"

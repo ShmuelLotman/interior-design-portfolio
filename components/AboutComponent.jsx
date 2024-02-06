@@ -15,7 +15,7 @@ export default function AboutComponent() {
       <div className="grid lg:grid-cols-2 place-items-start place-content-center">
         <div>
           <Image
-            src="/image/blums.jpg"
+            src="/image/Headshot.jpg"
             width={500}
             height={500}
             alt=""

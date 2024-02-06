@@ -14,7 +14,7 @@ export default function Header() {
         <Image
           src={logo}
           alt="logo"
-          className="w-40 h-6 cursor-pointer"
+          className="w-60 h-8 cursor-pointer"
           onClick={() => router.push('/')}
         />
 

@@ -18,12 +18,10 @@ import FoyerAfterMain from '@/public/image/foyer-after-main.jpg'
 export const projects = [
   {
     id: 1,
-    title: 'Complete closet makeover',
+    title: 'Mudroom Reno',
     subtitle:
       'From nasty to nook: transforming a hated space to a welcoming one',
     imgLinks: [MudroomBeforeLink, MudroomBeforeLinkOne, MudroomBeforeLinkTwo],
-    description:
-      'This mudroom came with the original house, built 1959. It was not only dilapidated - it was unsightly, and caused everyone passing it on their way into the house to cringe. Using custom built shelving, a modern shiplap design to complement the updated atmosphere, and a functional bench area complete with shelving, the mudroom became a cozy inlet to the home at very little cost.',
   },
   {
     id: 2,
@@ -46,7 +44,7 @@ export const projects = [
   },
   {
     id: 4,
-    title: 'A Foyer Fit For A Queen (& King)',
+    title: 'Foyer makeover',
     subtitle: 'Making the most of small spaces & efficient budgets',
     imgLinks: [FoyerBefore, FoyerAfterOne, FoyerAfterTwo, FoyerAfterMain],
   },
