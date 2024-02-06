@@ -38,7 +38,7 @@ export const projects = [
   },
   {
     id: 3,
-    title: 'Childrens Closet Brought to Life',
+    title: 'Childrens Closet Transformation',
     subtitle: 'More space, more light, more joy',
     imgLinks: [ClosetBefore, ClosetPostOne, ClosetPostTwo],
   },
