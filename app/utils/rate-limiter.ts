@@ -1,6 +1,6 @@
 import { headers } from 'next/headers'
 
-export function basicRateLimiter(ipHash) {
+export function basicRateLimiter(ipHash: Record<string, number>) {
   const headersList = headers()
   const now = Date.now()
   // 1 hour ago timewise for basic rate limiting - if you're hacking this site, is this really the best use of your time?
@@ -16,7 +16,7 @@ export function basicRateLimiter(ipHash) {
   const potentialIPAddress = xforwardedFor || xRealIp || fallbackIp
 
   // Now check the last moment they made a request - if closer than an hour ago, limited
-  if (ipHash[potentialIPAddress] > oneHourAgo) {
+  if (ipHash[potentialIPAddress] && ipHash[potentialIPAddress] > oneHourAgo) {
     return true
   }
 
